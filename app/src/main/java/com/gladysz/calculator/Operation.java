@@ -6,8 +6,9 @@ enum Operation {
     MULTIPLY,
     DIVIDE,
     STARTOVER,
+    FIBONACCI,
     FACTORIAL,
-    LOG,
-
+    POWER,
+    SQRT,
     NONE
 }
