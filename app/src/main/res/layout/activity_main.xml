@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,12 +19,10 @@
 
     <LinearLayout
         android:id="@+id/vertical"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/display"
-
         android:orientation="vertical">
-
 
         <LinearLayout
             android:id="@+id/row0"
@@ -36,6 +33,7 @@
 
             <Button
                 android:id="@+id/button7"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -44,6 +42,7 @@
 
             <Button
                 android:id="@+id/button8"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -52,6 +51,7 @@
 
             <Button
                 android:id="@+id/button9"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -60,6 +60,7 @@
 
             <Button
                 android:id="@+id/log"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -68,6 +69,7 @@
 
             <Button
                 android:id="@+id/divide"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="operationButtonClick"
@@ -85,6 +87,7 @@
 
             <Button
                 android:id="@+id/button4"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -93,6 +96,7 @@
 
             <Button
                 android:id="@+id/button5"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -101,9 +105,9 @@
                 android:textSize="@dimen/text_size" />
 
 
-
             <Button
                 android:id="@+id/button6"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -112,6 +116,7 @@
 
             <Button
                 android:id="@+id/sin"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -120,6 +125,7 @@
 
             <Button
                 android:id="@+id/multiply"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="operationButtonClick"
@@ -137,6 +143,7 @@
 
             <Button
                 android:id="@+id/button1"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -144,9 +151,9 @@
                 android:textSize="@dimen/text_size" />
 
 
-
             <Button
                 android:id="@+id/button2"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -155,6 +162,7 @@
 
             <Button
                 android:id="@+id/button3"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -164,6 +172,7 @@
 
             <Button
                 android:id="@+id/power"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -172,6 +181,7 @@
 
             <Button
                 android:id="@+id/subtract"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="operationButtonClick"
@@ -188,6 +198,7 @@
 
             <Button
                 android:id="@+id/button0"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -196,6 +207,7 @@
 
             <Button
                 android:id="@+id/decimal"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -203,16 +215,18 @@
                 android:textSize="@dimen/text_size" />
 
 
-
             <Button
                 android:id="@+id/equals"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="equalButtonClick"
                 android:text="="
                 android:textSize="@dimen/text_size" />
+
             <Button
                 android:id="@+id/factorial"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="numberButtonClick"
@@ -221,6 +235,7 @@
 
             <Button
                 android:id="@+id/add"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="operationButtonClick"
@@ -228,4 +243,7 @@
                 android:textSize="@dimen/text_size" />
         </LinearLayout>
     </LinearLayout>
+
+
 </RelativeLayout>
+
