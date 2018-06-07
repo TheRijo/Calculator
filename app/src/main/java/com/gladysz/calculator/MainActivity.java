@@ -94,7 +94,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // This is to tell the Activity what layout to use
         setContentView(R.layout.activity_main);
         advancedCalculator = new AdvancedCalculator();
         display = findViewById(R.id.display);
